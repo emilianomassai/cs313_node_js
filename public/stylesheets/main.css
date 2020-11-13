@@ -1,27 +1,66 @@
-.jumbotron {
-  background: #532F8C;
-  color: white;
-  padding-bottom: 80px; }
-  .jumbotron .btn-primary {
-    background: #845ac7;
-    border-color: #845ac7; }
-    .jumbotron .btn-primary:hover {
-      background: #7646c1; }
-  .jumbotron p {
-    color: #d9ccee;
-    max-width: 75%;
-    margin: 1em auto 2em; }
-  .navbar + .jumbotron {
-    margin-top: -20px; }
-  .jumbotron .lang-logo {
-    display: block;
-    background: #B01302;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    border: 2px solid white; }
-    .jumbotron .lang-logo img {
-      max-width: 100%; }
+* {
+  box-sizing: border-box;
+}
 
+body {
+  background-color: #0076b6;
+
+  padding: 1ch;
+  margin-left: 25px;
+  margin-right: 25px;
+  min-width: 550px;
+  text-align: center;
+  border: 4px solid white;
+  border-radius: 15px;
+  padding: 1ch;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: -3px 15px 10px black;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 0.808);
+  font-family: "Helvetica";
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+h2 {
+  color: rgba(255, 255, 255, 0.808);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+h4 {
+  color: rgba(255, 255, 255, 0.808);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.808);
+  font-family: "Helvetica";
+  margin-bottom: 50px;
+  padding: 3ch;
+  text-align: justify;
+  border: 2px solid white;
+  border-radius: 15px;
+  box-shadow: 3px 6px 6px black;
+}
+
+a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 40px;
+  font-family: "Lucida Sans Unicode", Verdana, sans-serif;
+  padding: 11px;
+}
+
+a:hover {
+  color: #0076b6;
+  background-color: white;
+  box-shadow: -3px 15px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.3s; /* Add transition on hover */
+}
