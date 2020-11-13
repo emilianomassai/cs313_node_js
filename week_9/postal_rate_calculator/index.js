@@ -4,7 +4,6 @@ const port = process.env.PORT || 5000;
 var params = { type_of_mail: "", weight: "", result: "" };
 
 // tell it to use the public directory as one where static files live
-// app.use(express.static(__dirname + "/public"));
 app.use(express.static("public"));
 
 // views is directory for all template files
