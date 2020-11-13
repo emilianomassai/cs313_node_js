@@ -1,5 +1,9 @@
 const express = require("express");
 const app = express();
+
+// the following is the correct way to assign a port in a
+// node application. You should first try to read the value of
+// environment variable called PORT.
 const port = process.env.PORT || 5000;
 var params = { type_of_mail: "", weight: "", result: "" };
 
